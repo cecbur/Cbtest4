@@ -18,6 +18,7 @@ import se.cecbur.pensionsmyndighetense.pages.Index;
  */
 public class Cbtest4 
 {
+	// Make arguments available to all
 	private static String[] arguments= null;
 	
 	// Create a logger for this class

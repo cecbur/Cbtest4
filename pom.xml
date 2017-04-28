@@ -53,4 +53,20 @@
 	    <version>3.16</version>
 	</dependency>
   </dependencies>
+  
+  <scm>
+	<connection>scm:git:git@github.com:cecbur/Cbtest3.git</connection>
+	<url>scm:git:git@github.com:cecbur/Cbtest3.git</url>
+	<developerConnection>scm:git:git@github.com:cecbur/Cbtest3.git</developerConnection>
+  </scm>
+  
+  <build>
+    <plugins>
+		<plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+		  <artifactId>maven-release-plugin</artifactId>
+		  <version>2.5.3</version>
+		</plugin>
+	</plugins>
+  </build>
 </project>
